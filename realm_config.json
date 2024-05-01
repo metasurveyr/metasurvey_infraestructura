@@ -1,0 +1,8 @@
+{
+    "app_id": "metasurvey-esurwxn",
+    "config_version": 20210101,
+    "name": "metasurvey",
+    "provider_region": "aws-sa-east-1",
+    "deployment_model": "LOCAL",
+    "environment": "development"
+}
