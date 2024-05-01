@@ -3,5 +3,34 @@
         "name": "api-key",
         "type": "api-key",
         "disabled": true
+    },
+    "oauth2-google": {
+        "name": "oauth2-google",
+        "type": "oauth2-google",
+        "disabled": false,
+        "config": {
+            "clientId": "831175216229-cqvsgbvbtn3vesb375p2ea3ee54bb53u.apps.googleusercontent.com",
+            "openId": false
+        },
+        "secret_config": {
+            "clientSecret": "metasurvey-google"
+        },
+        "metadata_fields": [
+            {
+                "required": false,
+                "name": "name"
+            },
+            {
+                "required": false,
+                "name": "email"
+            },
+            {
+                "required": false,
+                "name": "gender"
+            }
+        ],
+        "redirect_uris": [
+            "https://metasurveyr.github.io/metasurvey/"
+        ]
     }
 }
