@@ -1,0 +1,38 @@
+{
+    "title": "recipe",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "steps": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "array",
+                "items": {
+                    "bsonType": "string"
+                }
+            }
+        },
+        "svy_edition": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "svy_type": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "user": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        }
+    },
+    "required": [
+        "_id"
+    ]
+}
